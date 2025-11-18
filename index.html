@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="futuristic-theme.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:%2300d4ff;stop-opacity:1' /><stop offset='100%' style='stop-color:%238b5cf6;stop-opacity:1' /></linearGradient></defs><rect width='100' height='100' rx='20' fill='url(%23grad)'/><text x='50' y='65' font-family='Arial,sans-serif' font-size='45' font-weight='bold' text-anchor='middle' fill='white'>&lt;/&gt;</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:%2300d4ff;stop-opacity:1' /><stop offset='100%' style='stop-color:%238b5cf6;stop-opacity:1' /></linearGradient></defs><rect width='100' height='100' rx='20' fill='url(%23grad)'/><text x='50' y='65' font-family='Arial,sans-serif' font-size='45' font-weight='bold' text-anchor='middle' fill='white'>&lt;/&gt;</text></svg>">
+    <title>Abhishek Shukla - Portfolio</title>
+</head>
+<body>
+    <!-- Futuristic Background -->
+    <div class="tech-background">
+        <div class="tech-grid"></div>
+        <div class="neon-waves">
+            <div class="wave wave-1"></div>
+            <div class="wave wave-2"></div>
+            <div class="wave wave-3"></div>
+        </div>
+        <div class="floating-particles">
+            <div class="tech-particle"></div>
+            <div class="tech-particle"></div>
+            <div class="tech-particle"></div>
+            <div class="tech-particle"></div>
+            <div class="tech-particle"></div>
+            <div class="tech-particle"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="logo-content">
+                    <span class="logo-name">Abhishek</span>
+                    <span class="logo-title">Developer</span>
+                </div>
+            </a>
+            
+            <nav class="navbar" id="navbar">
+                <a href="#home" class="nav-link active">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#about" class="nav-link">
+                    <i class="fas fa-user"></i>
+                    <span>About</span>
+                </a>
+                <a href="#services" class="nav-link">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Services</span>
+                </a>
+                <a href="#projects" class="nav-link">
+                    <i class="fas fa-folder-open"></i>
+                    <span>Projects</span>
+                </a>
+                <a href="#skills" class="nav-link">
+                    <i class="fas fa-code"></i>
+                    <span>Skills</span>
+                </a>
+                <a href="#testimonials" class="nav-link">
+                    <i class="fas fa-star"></i>
+                    <span>Reviews</span>
+                </a>
+                <a href="#contact" class="nav-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </nav>
+
+            <div class="nav-actions">
+                <div class="nav-status">
+                    <div class="status-indicator"></div>
+                    <span class="status-text">Available</span>
+                </div>
+                <a href="#contact" class="btn-hire">
+                    <i class="fas fa-rocket"></i>
+                    <span>Hire Me</span>
+                </a>
+                <button class="menu-toggle" id="menu-toggle">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    Available for freelance work
+                </div>
+                
+                <h1 class="hero-title">
+                    Hello, I'm <span class="gradient-text">Abhishek Shukla</span>
+                </h1>
+                
+                <h2 class="hero-subtitle">
+                    <span class="typing-text" id="typing-text"></span>
+                </h2>
+                
+                <div class="hero-roles">
+                    <span class="role-badge">Web Developer</span>
+                    <span class="role-badge">UI/UX Designer</span>
+                    <span class="role-badge">Founder of Abhinova</span>
+                    <span class="role-badge">Freelancer</span>
+                </div>
+                
+                <p class="hero-description">
+                    World's Most Advanced Digital Platform. Premium Solutions for Modern Businesses.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-primary neon-btn">
+                        <i class="fas fa-code"></i>
+                        View My Work
+                    </a>
+                    <a href="#contact" class="btn-secondary neon-btn">
+                        <i class="fas fa-rocket"></i>
+                        Let's Work Together
+                    </a>
+                </div>
+                
+                <div class="hero-bottom">
+                    <div class="code-preview">
+                        <div class="code-header">
+                            <div class="code-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <span class="code-title">portfolio.js</span>
+                        </div>
+                        <div class="code-content">
+                            <span class="code-line"><span class="keyword">const</span> <span class="variable">developer</span> = {</span>
+                            <span class="code-line">  <span class="property">name</span>: <span class="string">'Abhishek Shukla'</span>,</span>
+                            <span class="code-line">  <span class="property">skills</span>: [<span class="string">'HTML'</span>, <span class="string">'CSS'</span>, <span class="string">'JS'</span>],</span>
+                            <span class="code-line">  <span class="property">passion</span>: <span class="string">'Amazing UX'</span></span>
+                            <span class="code-line">};</span>
+                        </div>
+                    </div>
+                    
+                    <div class="stats-counter">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="50">50+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="30">30+</span>
+                            <span class="stat-label">Clients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="4">4+</span>
+                            <span class="stat-label">Years</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-social">
+                    <a href="https://www.linkedin.com/in/abhishek-shukla-prayagraj" class="social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/abhishek2446" class="social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://www.instagram.com/abhishek.innovator" class="social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="https://www.facebook.com/share/1AAr8GiueX/" class="social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="image-glow"></div>
+                    <img src="abc.jpg" alt="Abhishek Shukla" class="profile-img">
+                    <div class="floating-elements">
+                        <div class="floating-icon" style="--delay: 0s">💻</div>
+                        <div class="floating-icon" style="--delay: 1s">🎨</div>
+                        <div class="floating-icon" style="--delay: 2s">⚡</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get to know me</span>
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 class="about-subtitle">
+                        I'm a <span class="typing-text-2" id="typing-text-2">passionate developer</span>
+                    </h3>
+                    
+                    <div class="about-description">
+                        <p>Hello! I'm Abhishek Shukla, a passionate Web Developer and Designer from Prayagraj, India. Currently pursuing B.Tech in Computer Science Engineering at United College of Engineering & Research (UCER).</p>
+                        
+                        <p>I specialize in creating modern, responsive websites using HTML, CSS, JavaScript, Node.js, and Python. My mission is to help businesses grow through innovative web solutions and creative design.</p>
+                        
+                        <p>I'm also the founder of Abhinova, where I provide comprehensive digital solutions including web development, branding, and freelancing guidance.</p>
+                    </div>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">30+</span>
+                            <span class="stat-label">Clients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label">Years</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <div class="about-img-container">
+                        <img src="abcd.jpeg" alt="About Abhishek">
+                        <div class="about-img-overlay"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <div class="expertise-icon">💻</div>
+                    <h4>Web Development</h4>
+                    <p>Building modern, responsive websites with cutting-edge technologies and best practices.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">🎨</div>
+                    <h4>UI/UX Design</h4>
+                    <p>Creating stunning visual identities and user-centric designs that drive engagement.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Figma</span>
+                        <span class="tech-tag">Canva</span>
+                        <span class="tech-tag">Adobe XD</span>
+                        <span class="tech-tag">Branding</span>
+                    </div>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">🚀</div>
+                    <h4>Business Solutions</h4>
+                    <p>Helping businesses grow through strategic digital solutions and creative consulting.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Strategy</span>
+                        <span class="tech-tag">Consulting</span>
+                        <span class="tech-tag">E-commerce</span>
+                        <span class="tech-tag">SEO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What I offer</span>
+                <h2 class="section-title">My <span class="gradient-text">Services</span></h2>
+                <p class="section-description">
+                    Comprehensive digital solutions that blend creativity with technical expertise to help your business thrive.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card featured">
+                    <div class="service-badge">Most Popular</div>
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Custom Website Development</h3>
+                    <div class="service-description">Full-Stack Development</div>
+                    <p>Transform your vision into a stunning, responsive website. From concept to deployment, I handle every aspect of web development.</p>
+                    
+                    <div class="service-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Responsive Design</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>SEO Optimized</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Fast Loading</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Mobile First</span>
+                        </div>
+                    </div>
+                    
+                    <div class="service-pricing">
+                        <span class="price-label">Starting from</span>
+                        <span class="price">₹15,000</span>
+                    </div>
+                    
+                    <div class="service-tags">
+                        <span class="service-tag primary">HTML5</span>
+                        <span class="service-tag">CSS3</span>
+                        <span class="service-tag">JavaScript</span>
+                        <span class="service-tag">Node.js</span>
+                    </div>
+                    
+                    <a href="#contact" class="service-link">
+                        Get Started <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design & Branding</h3>
+                    <div class="service-description">Visual Identity</div>
+                    <p>Create a memorable brand identity with custom designs that capture your essence and connect with your audience.</p>
+                    
+                    <div class="service-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Logo Design</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Brand Guidelines</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Marketing Materials</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Social Media Assets</span>
+                        </div>
+                    </div>
+                    
+                    <div class="service-pricing">
+                        <span class="price-label">Starting from</span>
+                        <span class="price">₹8,000</span>
+                    </div>
+                    
+                    <div class="service-tags">
+                        <span class="service-tag">Figma</span>
+                        <span class="service-tag">Canva</span>
+                        <span class="service-tag">Adobe XD</span>
+                    </div>
+                    
+                    <a href="#contact" class="service-link">
+                        Get Started <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>E-commerce Solutions</h3>
+                    <div class="service-description">Online Store Development</div>
+                    <p>Complete e-commerce platforms with secure payments, inventory management, and admin dashboards.</p>
+                    
+                    <div class="service-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Payment Gateway</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Inventory Management</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Admin Dashboard</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Order Tracking</span>
+                        </div>
+                    </div>
+                    
+                    <div class="service-pricing">
+                        <span class="price-label">Starting from</span>
+                        <span class="price">₹25,000</span>
+                    </div>
+                    
+                    <div class="service-tags">
+                        <span class="service-tag">Node.js</span>
+                        <span class="service-tag">MongoDB</span>
+                        <span class="service-tag">Stripe</span>
+                    </div>
+                    
+                    <a href="#contact" class="service-link">
+                        Get Started <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="services-cta">
+                <div class="cta-content">
+                    <h3>Ready to Start Your Project?</h3>
+                    <p>Let's collaborate to bring your vision to life with cutting-edge technology and creative excellence.</p>
+                    <div class="cta-actions">
+                        <a href="#contact" class="btn-primary">
+                            <i class="fas fa-rocket"></i>
+                            Start Your Project
+                        </a>
+                        <a href="#projects" class="btn-secondary">
+                            <i class="fas fa-eye"></i>
+                            View My Work
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My work</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-description">
+                    A showcase of my recent work, featuring innovative solutions that have helped businesses achieve their digital goals.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card flagship">
+                    <div class="project-badge flagship-badge">Flagship Project</div>
+                    <div class="project-image">
+                        <img src="abhinova.png" alt="Abhinova Website">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link-btn">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link-btn">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Business Website</div>
+                        <h3>Abhinova - Digital Innovation Platform</h3>
+                        <div class="project-tagline">"Where Innovation Meets Excellence"</div>
+                        <p>My startup platform showcasing digital solutions and services. Built with modern web technologies and featuring an intuitive user experience.</p>
+                        
+                        <div class="project-tech">
+                            <span class="tech-badge primary">HTML5</span>
+                            <span class="tech-badge">CSS3</span>
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">Node.js</span>
+                        </div>
+                        
+                        <div class="project-status">
+                            <span class="status-badge live">Live</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="jairozon.png" alt="Jairozon E-commerce">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link-btn">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link-btn">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">E-commerce</div>
+                        <h3>Jairozon - Online Bookstore</h3>
+                        <p>A modern e-commerce platform for book lovers, featuring an intuitive shopping experience and comprehensive book catalog.</p>
+                        
+                        <div class="project-tech">
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">Express</span>
+                            <span class="tech-badge">MongoDB</span>
+                            <span class="tech-badge">EJS</span>
+                        </div>
+                        
+                        <div class="project-status">
+                            <span class="status-badge live">Live</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="experts15.png" alt="Experts15 Platform">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link-btn">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link-btn">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Ed-Tech</div>
+                        <h3>Experts15 - Mock Test Platform</h3>
+                        <p>Educational technology platform providing comprehensive mock tests and learning resources for students.</p>
+                        
+                        <div class="project-tech">
+                            <span class="tech-badge">HTML5</span>
+                            <span class="tech-badge">CSS3</span>
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">MongoDB</span>
+                        </div>
+                        
+                        <div class="project-status">
+                            <span class="status-badge live">Live</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="p1.png" alt="Lotto Koyote Publications">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link-btn">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link-btn">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Creative</div>
+                        <h3>Lotto Koyote Publications</h3>
+                        <p>A mystical publishing platform combining ancient wisdom with modern digital experiences.</p>
+                        
+                        <div class="project-tech">
+                            <span class="tech-badge">HTML5</span>
+                            <span class="tech-badge">CSS3</span>
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">Canvas API</span>
+                        </div>
+                        
+                        <div class="project-status">
+                            <span class="status-badge live">Live</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="p3.png" alt="Vinci Code Game">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link-btn">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                                <a href="#" class="project-link-btn">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Game</div>
+                        <h3>Vinci Code - Puzzle Game</h3>
+                        <p>An interactive puzzle game that challenges players with code-breaking and pattern recognition.</p>
+                        
+                        <div class="project-tech">
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">HTML5</span>
+                            <span class="tech-badge">CSS3</span>
+                            <span class="tech-badge">Game Logic</span>
+                        </div>
+                        
+                        <div class="project-status">
+                            <span class="status-badge coming-soon">Coming Soon</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My expertise</span>
+                <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+                <p class="section-description">
+                    My technical skills and proficiency levels across various technologies and tools.
+                </p>
+            </div>
+
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5 & CSS3</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%" data-width="90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%" data-width="85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">React.js</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%" data-width="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%" data-width="80%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%" data-width="85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MongoDB</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%" data-width="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Design & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Figma</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%" data-width="85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Canva</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%" data-width="90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git & GitHub</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Client feedback</span>
+                <h2 class="section-title">What Clients <span class="gradient-text">Say</span></h2>
+                <p class="section-description">
+                    Don't just take my word for it. Here's what my clients have to say about working with me.
+                </p>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"Abhishek delivered an exceptional e-commerce platform for our bookstore. His attention to detail and technical expertise made the entire process smooth and professional."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face" alt="Client">
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <span>Business Owner</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"Working with Abhishek was a game-changer for our online presence. His creative approach and technical skills helped us achieve our digital goals efficiently."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face" alt="Client">
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <span>Startup Founder</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"Abhishek's freelancing guidance helped me start my own successful online business. His mentorship and practical advice were invaluable for my growth."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face" alt="Client">
+                        <div class="author-info">
+                            <h4>David Rodriguez</h4>
+                            <span>Freelancer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-nav">
+                <button class="nav-dot active" data-slide="0"></button>
+                <button class="nav-dot" data-slide="1"></button>
+                <button class="nav-dot" data-slide="2"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get in touch</span>
+                <h2 class="section-title">Let's Work <span class="gradient-text">Together</span></h2>
+                <p class="section-description">
+                    Ready to bring your vision to life? Let's discuss your project and create something amazing together.
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>abhishek.abhinova@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 7752842084</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Prayagraj, India</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <h4>Follow Me</h4>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/abhishek-shukla-prayagraj" class="social-link">
+                                <i class='bx bxl-linkedin'></i>
+                            </a>
+                            <a href="https://github.com/abhishek2446" class="social-link">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                            <a href="https://www.instagram.com/abhishek.innovator" class="social-link">
+                                <i class='bx bxl-instagram'></i>
+                            </a>
+                            <a href="https://www.facebook.com/share/1AAr8GiueX/" class="social-link">
+                                <i class='bx bxl-facebook'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">Abhishek Shukla</div>
+                    <p>Web Developer • UI/UX Designer • Freelancer</p>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/abhishek-shukla-prayagraj" class="social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/abhishek2446" class="social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://www.instagram.com/abhishek.innovator" class="social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="https://www.facebook.com/share/1AAr8GiueX/" class="social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #334155; color: #94a3b8;">
+                <p>&copy; 2024 Abhishek Shukla. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="futuristic-script.js"></script>
+</body>
+</html>
